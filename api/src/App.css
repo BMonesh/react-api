@@ -1,0 +1,30 @@
+body{
+  background-color:#663399;
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+  background-color: #FFD0EC;
+  border: 1px solid black;
+  margin: 20px 50px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.main:hover{
+  cursor: pointer;
+  transition:  all .3s ease-in-out;
+  box-shadow: 3px 6px 9px rgba(0,0,0,.48), -3px -6px 9px rgba(0,0,0,.48);
+  scale: 1.02;
+}
+
+.content{
+  display: flex;
+  margin: 10px;
+  justify-content: space-between;
+}
+
+.content img{
+  margin-right: 10px;
+}
